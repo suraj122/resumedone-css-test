@@ -1,0 +1,12 @@
+@import url("./fonts.css");
+@import url("./reset.css");
+:root {
+  font-family: Gilroy-Medium, sans-serif;
+  font-size: 10px;
+  line-height: 1.5;
+  --primary: rgba(0, 139, 93, 1);
+  --accent: rgba(22, 136, 254, 1);
+  --danger: rgba(242, 87, 115, 1);
+  --text-light: rgba(76, 76, 85, 1);
+  --text-dark: rgba(20, 20, 31, 1);
+}
