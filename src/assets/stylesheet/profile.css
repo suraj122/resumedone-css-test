@@ -92,6 +92,9 @@ input[type="checkbox"] {
   padding: 1.6rem;
   border-radius: 0.8rem;
 }
+.action-delete-box p {
+  line-height: 1.833;
+}
 .action-delete-box h2 {
   font-weight: 600;
   line-height: 1.4;
