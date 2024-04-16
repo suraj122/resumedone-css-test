@@ -107,6 +107,9 @@ input[type="checkbox"] {
   line-height: 1.83;
   padding: 0;
 }
+.action-delete-box button:hover {
+  text-decoration: underline;
+}
 .support-message {
   margin-top: 3.2rem;
 }

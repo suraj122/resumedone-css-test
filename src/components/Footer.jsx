@@ -1,18 +1,20 @@
+import { Link } from "react-router-dom";
+
 const Footer = () => {
   return (
     <footer className="footer">
       <ul className="flex-start">
         <li>
-          <a to="/terms-condition">Terms & Conditions</a>
+          <Link to="/terms-condition">Terms & Conditions</Link>
         </li>
         <li>
-          <a to="/privacy-policy">Terms & Conditions</a>
+          <Link to="/privacy-policy">Terms & Conditions</Link>
         </li>
         <li>
-          <a to="/faq">FAQ</a>
+          <Link to="/faq">FAQ</Link>
         </li>
         <li>
-          <a to="/contact">Contact Us</a>
+          <Link to="/contact">Contact Us</Link>
         </li>
       </ul>
     </footer>

@@ -9,4 +9,8 @@
 .footer a {
   font-size: 1.4rem;
   color: rgba(89, 89, 100, 1);
+  text-decoration: none;
+}
+.footer a:hover {
+  color: var(--text-dark);
 }

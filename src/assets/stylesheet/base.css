@@ -73,6 +73,10 @@ body {
   background-color: var(--accent);
   padding: 0.9rem 6.75rem;
   border-radius: 0.4rem;
+  transition: box-shadow 200ms ease-in-out;
+}
+.btn-primary:hover {
+  box-shadow: 0px 4px 10px rgba(22, 136, 254, 0.3);
 }
 
 @media screen and (max-width: 992px) {
