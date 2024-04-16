@@ -10,7 +10,7 @@
   background-color: white;
 }
 .logo {
-  padding: 1.2rem 0.8rem;
+  padding: 1.2rem;
   border-bottom: 1px solid var(--light);
 }
 
@@ -21,6 +21,7 @@
   bottom: 0;
   width: 100%;
   border-top: 1px solid var(--light);
+  background-color: white;
 }
 .sidebar-footer strong {
   font-size: 1.3rem;
@@ -69,4 +70,32 @@
 }
 .search-element:hover {
   background-color: var(--light);
+}
+.open,
+.close {
+  display: none;
+}
+@media screen and (max-width: 769px) {
+  .sidebar {
+    left: -100%;
+    transition: left 500ms ease-in-out;
+  }
+  .open,
+  .close {
+    display: inline-block;
+    background: none;
+  }
+  .open {
+    position: fixed;
+    top: 0.8rem;
+    left: 0rem;
+  }
+  .open img,
+  .close img {
+    width: 2rem;
+  }
+  .show-sidebar {
+    display: inline-block;
+    left: 0;
+  }
 }

@@ -1,6 +1,6 @@
 const ProfileBanner = () => {
   return (
-    <header className="profile-banner flex-between">
+    <header className="profile-banner flex-between sm-flex-none">
       <div className="profile-badge">
         <img src="/images/icons/premium.svg" alt="Premium Icon" />
       </div>

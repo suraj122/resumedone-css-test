@@ -19,7 +19,7 @@ body {
   max-width: 96rem;
   width: 100%;
   margin: 0 auto;
-  padding: 3.2rem 8rem 0 3.2rem;
+  padding: 3.2rem 8rem;
 }
 
 .flex-start {
@@ -73,4 +73,22 @@ body {
   background-color: var(--accent);
   padding: 0.9rem 6.75rem;
   border-radius: 0.4rem;
+}
+
+@media screen and (max-width: 992px) {
+  .md-flex-col {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper {
+    margin-left: 0;
+  }
+  .container {
+    padding: 3.2rem;
+  }
+  .sm-flex-none {
+    display: block;
+  }
 }

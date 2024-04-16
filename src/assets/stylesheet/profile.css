@@ -27,6 +27,9 @@
   color: var(--text-light);
   font-weight: 500;
 }
+.profile-update-field {
+  width: 100%;
+}
 .profile-info legend {
   margin-bottom: 2.4rem;
 }
@@ -116,4 +119,26 @@ input[type="checkbox"] {
 }
 .profile-info a:hover {
   text-decoration: underline;
+}
+.user-avatar {
+  align-self: flex-start;
+  width: 14.4rem;
+  height: 14.4rem;
+  border-radius: 50%;
+  margin-left: 1.6rem;
+}
+
+@media screen and (max-width: 992px) {
+  .user-avatar {
+    margin: 0 auto;
+    order: -1;
+    margin-bottom: 3.2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .profile-badge {
+    display: inline-flex;
+    margin-bottom: 3.2rem;
+  }
 }
