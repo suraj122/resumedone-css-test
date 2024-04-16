@@ -4,9 +4,9 @@ import Search from "./Search";
 const Templates = () => {
   return (
     <div className="template">
-      <header className="flex-start">
+      <header className="flex-start heading-secondary">
         <img src="/images/icons/template.svg" alt="Template Icon" />
-        <h3 className="heading-secondary">My templates</h3>
+        <h3 className="">My templates</h3>
       </header>
       <Search />
       <Board />

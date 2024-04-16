@@ -3,10 +3,10 @@ import Boardelement from "./BoardElement";
 const Board = () => {
   return (
     <div className="template-item">
-      <header className="flex-between">
+      <header className="flex-between heading-secondary">
         <div className="flex-start">
           <img src="/images/icons/board.svg" alt="Board Icon" />
-          <h3 className="heading-secondary">My Boards</h3>
+          <h3 className="">My Boards</h3>
         </div>
         <img src="/images/icons/add.svg" alt="Plus Icon" />
       </header>

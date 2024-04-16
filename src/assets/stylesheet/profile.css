@@ -1,0 +1,119 @@
+/* Profile banner */
+.profile-banner {
+  background-color: var(--primary);
+  color: white;
+  padding: 2.4rem;
+  border-radius: 0.8rem;
+  font-weight: 500;
+}
+.profile-badge {
+  min-width: 7.2rem;
+  min-height: 7.2rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  margin-right: 1.6rem;
+}
+.profile-banner p {
+  margin-top: 0.4rem;
+}
+
+/* Profile Information */
+.profile-info {
+  margin-top: 3.2rem;
+  font-size: 1.5rem;
+  color: var(--text-light);
+  font-weight: 500;
+}
+.profile-info legend {
+  margin-bottom: 2.4rem;
+}
+
+.field-group {
+  position: relative;
+}
+.field-group label {
+  position: absolute;
+  left: 1.2rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  background-color: white;
+  padding: 0.4rem;
+  color: var(--text-light);
+  top: -0.8rem;
+}
+.field-group input {
+  display: block;
+  width: 100%;
+  border: 1px solid var(--light);
+  font-size: 1.5rem;
+  padding: 1.3rem 1.2rem;
+  color: var(--text-dark);
+  font-weight: 500;
+  line-height: 1.83;
+  border-radius: 0.4rem;
+}
+.field-group input::placeholder {
+  color: rgba(89, 89, 100, 1);
+}
+.checked-icon {
+  position: absolute;
+  top: 50%;
+  right: 1.2rem;
+  transform: translateY(-50%);
+}
+input[type="email"] {
+  pointer-events: none;
+}
+.action-notification {
+  margin: 1.6rem 0;
+  line-height: 1.833;
+}
+.action-to-employer {
+  margin-top: 3.2rem;
+}
+.action-to-employer label {
+  font-size: 1.3rem;
+  margin-left: 0.8rem;
+}
+input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  border: 2px solid var(--light);
+}
+.action-delete-box {
+  margin-top: 3.2rem;
+  border: 1px solid var(--light);
+  padding: 1.6rem;
+  border-radius: 0.8rem;
+}
+.action-delete-box h2 {
+  font-weight: 600;
+  line-height: 1.4;
+  font-size: 1.7rem;
+  color: rgba(0, 0, 0, 1);
+  margin-bottom: 0.8rem;
+}
+.action-delete-box button {
+  color: var(--danger);
+  margin-top: 0.8rem;
+  background: none;
+  font-weight: 600;
+  line-height: 1.83;
+  padding: 0;
+}
+.support-message {
+  margin-top: 3.2rem;
+}
+.support-message p {
+  line-height: 1.833;
+}
+.profile-info a {
+  text-decoration: none;
+  color: var(--accent);
+}
+.profile-info a:hover {
+  text-decoration: underline;
+}

@@ -6,10 +6,20 @@
   --danger: rgba(242, 87, 115, 1);
   --text-light: rgba(76, 76, 85, 1);
   --text-dark: rgba(20, 20, 31, 1);
-  --border-light: rgba(236, 236, 237, 1);
+  --light: rgba(236, 236, 237, 1);
 }
 body {
   font-family: Gilroy, sans-serif;
+}
+
+.wrapper {
+  margin-left: 240px;
+}
+.container {
+  max-width: 96rem;
+  width: 100%;
+  margin: 0 auto;
+  padding: 3.2rem 8rem 0 3.2rem;
 }
 
 .flex-start {
@@ -25,11 +35,42 @@ body {
 
 /* Headings */
 .heading-primary {
+  font-weight: 600;
+  font-size: 2.4rem;
 }
 .heading-secondary {
   font-weight: 700;
   font-size: 1.3rem;
   color: var(--text-dark);
+  padding: 0.6rem 1.6rem 0.6rem 0.8rem;
+}
+.heading-secondary h3 {
   margin-left: 0.4rem;
-  padding: 0.6rem 0;
+}
+
+.body-text {
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1.833;
+}
+
+/* Grids */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2.4rem;
+}
+.span-2 {
+  grid-column: span 2;
+}
+
+/* Button */
+.btn-primary {
+  font-family: 600;
+  font-size: 1.5rem;
+  line-height: 1.833;
+  color: white;
+  background-color: var(--accent);
+  padding: 0.9rem 6.75rem;
+  border-radius: 0.4rem;
 }

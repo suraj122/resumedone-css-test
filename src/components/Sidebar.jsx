@@ -7,8 +7,8 @@ const Sidebar = () => {
         <img src="/images/logo.svg" alt="Resumezeme Logo" />
       </header>
       <Templates />
-      <footer className="flex-container sidebar-footer">
-        <div className="flex-container">
+      <footer className="flex-between sidebar-footer">
+        <div className="flex-start">
           <img src="/images/carla.png" alt="Carla" />
           <strong>Carla</strong>
         </div>

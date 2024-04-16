@@ -1,15 +1,17 @@
 .sidebar {
-  border-right: 1px solid var(--border-light);
+  border-right: 1px solid var(--light);
   position: fixed;
   left: 0;
   top: 0;
   height: 100%;
   width: 24rem;
   overflow: hidden;
+  z-index: 10;
+  background-color: white;
 }
 .logo {
   padding: 1.2rem 0.8rem;
-  border-bottom: 1px solid var(--border-light);
+  border-bottom: 1px solid var(--light);
 }
 
 .sidebar-footer {
@@ -18,7 +20,7 @@
   left: 0;
   bottom: 0;
   width: 100%;
-  border-top: 1px solid var(--border-light);
+  border-top: 1px solid var(--light);
 }
 .sidebar-footer strong {
   font-size: 1.3rem;
@@ -30,7 +32,7 @@
 /* Templates */
 .template {
   margin-top: 0.8rem;
-  padding: 0 1.6rem 0 0.8rem;
+
   overflow: auto;
   background-color: white;
   height: 80%;
@@ -47,7 +49,7 @@
   border-radius: 20px;
 }
 .sidebar:hover .template::-webkit-scrollbar-thumb {
-  background-color: var(--border-light);
+  background-color: var(--light);
 }
 
 /* Search */
@@ -55,11 +57,16 @@
   margin-top: 0.2rem;
 }
 .search-element {
-  padding: 0.6rem 0;
-}
-.search-element strong {
+  cursor: pointer;
+  color: var(--text-light);
   font-weight: 500;
   font-size: 1.3rem;
+  transition: background-color 100ms ease-in-out;
+  padding: 0.6rem 1.6rem 0.6rem 0.8rem;
+}
+.search-element strong {
   margin-left: 0.6rem;
-  color: var(--text-light);
+}
+.search-element:hover {
+  background-color: var(--light);
 }

@@ -133,3 +133,8 @@ table {
 *::after {
   box-sizing: border-box;
 }
+button {
+  border: 0;
+  box-shadow: none;
+  cursor: pointer;
+}

@@ -3,9 +3,9 @@ import SearchElement from "./SearchElement";
 const Search = () => {
   return (
     <div className="template-item">
-      <header className="flex-start">
+      <header className="flex-start heading-secondary">
         <img src="/images/icons/search.svg" alt="Search Icon" />
-        <h3 className="heading-secondary">Serch</h3>
+        <h3 className="">Serch</h3>
       </header>
       <ul>
         <SearchElement type={"current"} text={"Software Engineer"} />
