@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const ProfleInformation = () => {
   return (
     <div className="profile-info">
@@ -52,15 +54,20 @@ const ProfleInformation = () => {
             </fieldset>
             <p className="action-notification">
               Use this email to log in to your{" "}
-              <a href="https://resumedone.io">resumedone.io</a> account and
-              receive notifications.
+              <Link target="_blank" to="https://resumedone.io">
+                resumedone.io
+              </Link>{" "}
+              account and receive notifications.
             </p>
             <button className="btn-primary">Save</button>
             <div className="flex-start action-to-employer">
               <input id="checkbox" type="checkbox" />
               <label htmlFor="checkbox">
                 Show my profile to serious employers on{" "}
-                <a href="https://hirethesbest.io">hirethesbest.io</a> for free
+                <Link target="_blank" to="https://hirethesbest.io">
+                  hirethesbest.io
+                </Link>{" "}
+                for free
               </label>
             </div>
           </div>
@@ -82,7 +89,9 @@ const ProfleInformation = () => {
       </div>
       <div className="support-message">
         <p>
-          <a href="https://resumedone.io">Get in touch with our support team</a>{" "}
+          <Link target="_blank" to="https://resumedone.io">
+            Get in touch with our support team
+          </Link>{" "}
           if you have any question or want to leave some feedback. <br /> We’ll
           be happy to hear from you.
         </p>

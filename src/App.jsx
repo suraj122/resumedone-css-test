@@ -1,11 +1,9 @@
-import MainWrapper from "./components/MainWrapper";
-import Sidebar from "./components/Sidebar";
+import RouteComponent from "./Router";
 
 function App() {
   return (
     <>
-      <Sidebar />
-      <MainWrapper />
+      <RouteComponent />
     </>
   );
 }
