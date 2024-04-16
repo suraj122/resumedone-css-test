@@ -1,0 +1,65 @@
+.sidebar {
+  border-right: 1px solid var(--border-light);
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 24rem;
+  overflow: hidden;
+}
+.logo {
+  padding: 1.2rem 0.8rem;
+  border-bottom: 1px solid var(--border-light);
+}
+
+.sidebar-footer {
+  padding: 1.6rem;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  border-top: 1px solid var(--border-light);
+}
+.sidebar-footer strong {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-left: 1.2rem;
+  color: var(--text-light);
+}
+
+/* Templates */
+.template {
+  margin-top: 0.8rem;
+  padding: 0 1.6rem 0 0.8rem;
+  overflow: auto;
+  background-color: white;
+  height: 80%;
+}
+.template::-webkit-scrollbar {
+  width: 4px;
+}
+.template::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.template::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  border-radius: 20px;
+}
+.sidebar:hover .template::-webkit-scrollbar-thumb {
+  background-color: var(--border-light);
+}
+
+/* Search */
+.template-item {
+  margin-top: 0.2rem;
+}
+.search-element {
+  padding: 0.6rem 0;
+}
+.search-element strong {
+  font-weight: 500;
+  font-size: 1.3rem;
+  margin-left: 0.6rem;
+  color: var(--text-light);
+}

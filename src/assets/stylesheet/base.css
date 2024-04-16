@@ -1,0 +1,35 @@
+:root {
+  font-size: 10px;
+  line-height: 1.5;
+  --primary: rgba(0, 139, 93, 1);
+  --accent: rgba(22, 136, 254, 1);
+  --danger: rgba(242, 87, 115, 1);
+  --text-light: rgba(76, 76, 85, 1);
+  --text-dark: rgba(20, 20, 31, 1);
+  --border-light: rgba(236, 236, 237, 1);
+}
+body {
+  font-family: Gilroy, sans-serif;
+}
+
+.flex-start {
+  display: flex;
+  align-items: center;
+}
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Headings */
+.heading-primary {
+}
+.heading-secondary {
+  font-weight: 700;
+  font-size: 1.3rem;
+  color: var(--text-dark);
+  margin-left: 0.4rem;
+  padding: 0.6rem 0;
+}
