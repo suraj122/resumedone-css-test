@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <footer className="footer">
-      <ul className="flex-start">
+      <ul className="flex-start sm-flex-none">
         <li>
           <Link to="/terms-condition">Terms & Conditions</Link>
         </li>

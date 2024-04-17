@@ -14,3 +14,8 @@
 .footer a:hover {
   color: var(--text-dark);
 }
+@media screen and (max-width: 768px) {
+  .footer li {
+    margin: 1.6rem 0;
+  }
+}

@@ -11,12 +11,12 @@ const Board = () => {
         <img src="/images/icons/add.svg" alt="Plus Icon" />
       </header>
       <ul>
-        <Boardelement type={"open"} text={"Software Engineer"} />
-        <Boardelement type={"open"} text={"Computer hardware engineer"} />
-        <Boardelement type={"open"} text={"Network Engineer"} />
-        <Boardelement type={"lock"} text={"Technical Support"} />
-        <Boardelement type={"lock"} text={"Network administrator"} />
-        <Boardelement type={"lock"} text={"Network administrator"} />
+        <Boardelement type={"open"} text={"Board 1"} />
+        <Boardelement type={"open"} text={"Board 2"} />
+        <Boardelement type={"open"} text={"Board 3"} />
+        <Boardelement type={"lock"} text={"Board agent 1"} />
+        <Boardelement type={"lock"} text={"Board agent 2"} />
+        <Boardelement type={"lock"} text={"Board agent 3"} />
       </ul>
     </div>
   );
